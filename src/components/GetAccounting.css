@@ -1,0 +1,68 @@
+/* Getdetails.css */
+
+/* Style for the container div */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+  }
+  
+  /* Style for the form */
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input fields */
+  input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: #0074d9; /* Change the color to your preference */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the GET button */
+  button {
+    background-color: #0074d9; /* Change the color to your preference */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the table */
+  .table-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table headers */
+  .table-data th {
+    background-color: #0074d9; /* Change the color to your preference */
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table cells */
+  .table-data td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }

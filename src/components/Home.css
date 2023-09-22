@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+/* Style for the navbar container */
+.navbar {
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:red;
+  padding: 10px 20px;
+  background: url('https://media.istockphoto.com/id/936883348/vector/elements-of-an-internet-investment-financial-web-analysis-and-strategy-symbol-isometric-3d.jpg?s=612x612&w=0&k=20&c=Mo9sziJNU4qqI3_FSq7HGKZBxN-TO4iYvqpTE5Gq4tA=');
+  justify-content: space-between;
+  background-size: cover;
+  position: relative; 
+  z-index: 1; 
+  height: 565px;
+  width: 1200px;
+
+}
+
+/* Style for the logo or brand name */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center center;
+  text-decoration: color(prophoto-rgb red green blue);
+  color:white;
+}
+
+/* Style for the navigation links */
+.navbar .nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  
+  display: flex;
+  align-items: center;
+}
+
+/* Style for each individual navigation link */
+.navbar .nav-links li {
+  margin-right: 20px;
+ 
+}
+
+/* Style for the links in the navbar */
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+/* Style for the links on hover */
+.navbar .nav-links li a:hover {
+  color: #007bff;
+}
+.nav-button:hover {
+  height: 100px;
+  background-color: #0056b3;
+}
